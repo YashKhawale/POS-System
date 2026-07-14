@@ -221,6 +221,27 @@ The exact endpoints depend on your implementation.
 
 Example APIs include:
 
+### Authentication
+
+| Method | Endpoint | Description |
+|---------|----------|-------------|
+| POST | `/auth/signup` | Staff signup |
+| POST | `/auth/login` | Staff login |
+
+---
+
+### Branch
+
+| Method | Endpoint | Description |
+|---------|----------|-------------|
+| GET | `/api/branches/store/{storeId}` | Get all branches by store id |
+| GET | `/api/branches/{id}` | Get branch by ID |
+| POST | `/api/branches` | Add branch |
+| PUT | `/api/branches/{id}` | Update branch |
+| DELETE | `/api/branches/{id}` | Delete branch |
+
+---
+
 ### Product
 
 | Method | Endpoint | Description |
