@@ -43,7 +43,7 @@ public class BranchController {
     }
 
     @DeleteMapping("/{id}")
-    public ResponseEntity<ApiResponse> updateBranch(@PathVariable Long id) throws Exception {
+    public ResponseEntity<ApiResponse> deleteBranch(@PathVariable Long id) throws Exception {
          branchService.deleteBranch(id);
          ApiResponse apiResponse = new ApiResponse();
          apiResponse.setMessage("Branch deleted successfully");
