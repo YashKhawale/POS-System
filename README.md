@@ -256,33 +256,41 @@ Example APIs include:
 
 ### Categories
 
-| Method | Endpoint |
-|---------|----------|
-| GET | `/categories` |
-| POST | `/categories` |
-| PUT | `/categories/{id}` |
-| DELETE | `/categories/{id}` |
+| Method | Endpoint | Description |
+|---------|----------|-------------|
+| GET | `/api/categories/{id}` | Get category |
+| GET | `/api/categories/store/{storeId}` | Get all categories by store id |
+| POST | `/api/categories` | Add category |
+| PUT | `/api/categories/{id}` | Update category |
+| DELETE | `/api/categories/{id}` | Delete category |
 
 ---
 
 ### Customers
 
-| Method | Endpoint |
-|---------|----------|
-| GET | `/customers` |
-| POST | `/customers` |
-| PUT | `/customers/{id}` |
-| DELETE | `/customers/{id}` |
+| Method | Endpoint | Description |
+|---------|----------|-------------|
+| GET | `/api/customers` | Get all customers |
+| GET | `/api/customers/{id}` | Get customer by id |
+| GET | `/api/customers/search` | Search customer by keyword |
+| POST | `/api/customers` | Add customer |
+| PUT | `/api/customers/{id}` | Update customer |
+| DELETE | `/api/customers/{id}` | Delete customer |
 
 ---
 
 ### Orders
 
-| Method | Endpoint |
-|---------|----------|
-| GET | `/orders` |
-| POST | `/orders` |
-| GET | `/orders/{id}` |
+| Method | Endpoint | Description |
+|---------|----------|-------------|
+| GET | `/api/orders/{id}` | Get order by id |
+| GET | `/api/orders/branch/{branchId}` | Get all orders by branch id |
+| GET | `/api/orders/cashier/{cashierId}` | Get all orders by cashier id |
+| GET | `/api/orders/today/branch/{branchId}` | Get today orders by branch id |
+| GET | `/api/orders/customer/{customerId}` | Get all orders by customer id |
+| GET | `/api/orders/recent/{branchId}` | Get top 5 recent orders by branch id |
+| POST | `/api/orders` | Add order |
+| DELETE | `/api/orders/{id}` | Delete order |
 
 ---
 
