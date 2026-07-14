@@ -1,6 +1,6 @@
 # POS System (Backend)
 
-A robust and scalable **Point of Sale (POS) System Backend** built using **Spring Boot**. This project provides RESTful APIs for managing products, categories, customers, orders, inventory, and billing operations required for a modern POS application.
+A robust and scalable **Point of Sale (POS) System Backend** built using **Spring Boot**. This project provides RESTful APIs for managing stores, branches, products, categories, customers, employees, users, refunds, orders, inventory, shifts, and billing operations required for a modern POS application.
 
 > **Note:** This repository contains **only the backend** of the POS System.
 
