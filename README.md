@@ -10,14 +10,20 @@ A robust and scalable **Point of Sale (POS) System Backend** built using **Sprin
 
 The POS System Backend is designed to automate retail store operations by providing APIs for:
 
+- Store Management
+- Branch Management
 - Product Management
 - Category Management
 - Customer Management
+- Employee Management
+- User Management
+- Refund Management
 - Order Processing
 - Inventory Management
 - Billing
+- Shift Reports
 - Sales Tracking
-- User Authentication (if implemented)
+- User Authentication 
 
 The backend follows a layered architecture using Spring Boot best practices to ensure maintainability, scalability, and clean code.
 
@@ -28,6 +34,9 @@ The backend follows a layered architecture using Spring Boot best practices to e
 ### Authentication
 - User Registration (Sign Up)
 - User Login
+- JWT-based Authentication
+- Secure Password Encryption (BCrypt)
+- Protected REST APIs using Spring Security
 
 ### Store Management
 - Create and manage stores
@@ -109,13 +118,15 @@ The backend follows a layered architecture using Spring Boot best practices to e
 |------------|---------|
 | Java 21 | Programming Language |
 | Spring Boot | Backend Framework |
-| Spring MVC | REST APIs |
+| Spring MVC | REST API Development |
+| Spring Security | Authentication & Authorization |
+| JWT (JSON Web Token) | Secure Token-Based Authentication |
 | Spring Data JPA | Database Operations |
-| Hibernate | ORM |
-| MySQL | Database |
-| Maven | Dependency Management |
-| Lombok | Boilerplate Reduction |
-| Jackson | JSON Serialization |
+| Hibernate | ORM (Object Relational Mapping) |
+| MySQL | Relational Database |
+| Maven | Dependency Management & Build Tool |
+| Lombok | Boilerplate Code Reduction |
+| Jackson | JSON Serialization & Deserialization |
 
 ---
 
@@ -365,14 +376,14 @@ This project helped in understanding:
 - Exception Handling
 - MySQL Integration
 - Maven Project Structure
+- JWT Authentication
+- Role-Based Authorization (Admin/Cashier)
 - Backend Development Best Practices
 
 ---
 
 ## 🚀 Future Improvements
 
-- JWT Authentication
-- Role-Based Authorization (Admin/Cashier)
 - Frontend Integration
 - Barcode Scanner Support
 - Invoice PDF Generation
