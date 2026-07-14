@@ -25,6 +25,21 @@ The backend follows a layered architecture using Spring Boot best practices to e
 
 ## 🎯 Features
 
+### Authentication
+- User Registration (Sign Up)
+- User Login
+
+### Store Management
+- Create and manage stores
+- Update store information
+- View store details
+
+### Branch Management
+- Create new branches
+- Update branch details
+- View branch information
+- Manage multiple branches under a store
+
 ### Product Management
 - Add new products
 - Update product information
@@ -52,12 +67,34 @@ The backend follows a layered architecture using Spring Boot best practices to e
 ### Inventory Management
 - Track product stock
 - Update inventory after sales
-- Prevent invalid stock operations (if implemented)
+- Prevent invalid stock operations
+
+### Employee Management
+- Add employees
+- Update employee information
+- View employee details
+- Manage employee records
+
+### User Management
+- Access user data using id and current profile
+
+### Refund Management
+- Process product refunds
+- Record refund transactions
+- Update inventory after refunds
+- Maintain refund history
 
 ### Billing
 - Generate order totals
 - Calculate item-wise pricing
 - Store transaction details
+
+### Shift Reports
+- Generate daily shift reports
+- Track sales during a shift
+- View shift summaries
+- Monitor cashier performance
+- Monitor branch performance 
 
 ### REST API
 - RESTful endpoints
