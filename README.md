@@ -356,7 +356,7 @@ The APIs can be tested using:
 ### 📊 Shift Reports & Sales Tracking
 | Find by Cashier ID | Find by Date |
 |:---:|:---:|
-| ![Find by Cashier ID](screenshots/shift_report_by_cashierId.png) | ![Find by Date](screenshots/shift_report_by_date.png) |
+| ![Find by Cashier ID](screenshots/shift_report-by_cashierId.png) | ![Find by Date](screenshots/shift_report_by_date.png) |
 
 ### 📦 Inventory & Orders
 | Get Inventory by ID | Get Orders by Branch ID |
